@@ -19,6 +19,6 @@ def find_the_cheese(contains_cheddar)
     else
       nil
   end
-  return cheese_types
+  return cheese_types.flatten
 end
 end
