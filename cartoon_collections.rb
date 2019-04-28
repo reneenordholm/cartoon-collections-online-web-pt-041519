@@ -13,9 +13,6 @@ end
 
 def find_the_cheese(contains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    if contains_cheddar.include?(cheese_types)
-      return contains_cheddar.select
-    else
-      nil
-  end
+  contains_chedder.map 
+    { |cheese| cheese.include?(cheese_types) ? cheese_types(cheese) : nil }
 end
