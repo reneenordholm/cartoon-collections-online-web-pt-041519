@@ -15,10 +15,9 @@ def find_the_cheese(contains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
     contains_cheddar.each do |cheese| 
     if cheese.include?(cheese_types)
-     puts cheese_types(cheese)
+     puts cheese_types.join(cheese)
     else
       nil
   end
-  return cheese_types.to_s
-end
+ end
 end
