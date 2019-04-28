@@ -18,5 +18,6 @@ def find_the_cheese(contains_cheddar)
       return cheese_types(cheese)
     else
       nil
-  
+  end
+  return cheese_types
 end
