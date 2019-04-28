@@ -13,8 +13,8 @@ end
 
 def find_the_cheese(contains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    if contains_cheddar.include?("cheddar")
-      return "cheddar"
+    if contains_cheddar.include?(cheese_types)
+      return 
     else
       nil
   end
