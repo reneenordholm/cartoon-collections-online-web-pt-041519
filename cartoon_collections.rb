@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.map { |veggies| "#{veggies}!"
+  veggies.map { |veggies| puts "#{veggies}!"
 
 end
 
